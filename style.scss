@@ -1,0 +1,36 @@
+body {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.fs__container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fs__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fs__heading {
+  color: white;
+  font-size: 8rem;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.grid-container {
+  height: 100%;
+}
+
+.grid-item {
+  width: 200px;
+}

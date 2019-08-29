@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Dime MTL</title>
   </head>
   <body>
@@ -14,11 +15,12 @@
         <source src="assets/skate.webm" type="video/webm" />
         <source src="assets/skate.mp4" type="video/mp4" />
       </video>
+      <h1 class="fs__heading" data-aos="fade-in">Dime</h1>
     </div>
 
-    <h1 class="fs__heading">Dime</h1>
     <div class="grid-container">
-      <div class="grid">
+      <h1 class="grid-title" data-aos="fade-left">Lookbook</h1>
+      <div class="grid" data-aos="fade-right">
         <img
           src="./assets/Lookbook/picture1.jpg"
           class="grid-item"
@@ -111,6 +113,7 @@
         />
       </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="module" src="script.js"></script>
   </body>
 </html>
